@@ -1,0 +1,13 @@
+@import "../styles/variables.scss";
+.button {
+  background: transparent;
+  width: 140px;
+  color: $color-white;
+  font-weight: 700;
+  padding: 0.375rem 0.5rem;
+  text-transform: uppercase;
+  transition: all, 0.2s;
+  &:hover {
+    color: $color-magenta;
+  }
+}

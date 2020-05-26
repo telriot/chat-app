@@ -1,0 +1,24 @@
+@import "../styles/variables.scss";
+
+.connectionStatus {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: $color-white 3px solid;
+}
+
+.connectionDown {
+  @extend .connectionStatus;
+  background-color: $color-magenta;
+}
+.connectionUp {
+  @extend .connectionStatus;
+  background-color: $color-green;
+}
+.connectionReconnecting {
+  @extend .connectionStatus;
+  background-color: yellow;
+}

@@ -1,0 +1,22 @@
+@import "../styles/variables.scss";
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($color-black, 0.5);
+}
+.modal {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10rem;
+  z-index: 1050;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: $color-indigo;
+  border-radius: 6px;
+}

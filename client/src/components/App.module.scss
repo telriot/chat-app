@@ -1,0 +1,55 @@
+@import "../styles/variables.scss";
+.container {
+  display: grid;
+  grid-template-rows: 20vh 20vh 10vh;
+  align-items: center;
+  justify-items: center;
+}
+.header {
+  grid-row: 2/3;
+  color: $color-white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn {
+  grid-row: 3/4;
+  padding: 1rem 2rem;
+  background-color: $color-magenta;
+  color: $color-white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 2px;
+  transition: all, 0.2s;
+  &:hover {
+    background-color: $color-white;
+    color: $color-magenta;
+  }
+}
+.containerChat {
+  display: flex;
+  flex-direction: column;
+}
+.btnChat {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: $color-magenta;
+  color: $color-white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all, 0.2s;
+  &:hover {
+    background-color: $color-white;
+    color: $color-magenta;
+  }
+}
+.toggleBtn {
+  position: absolute;
+  bottom: 5rem;
+  right: 1rem;
+}

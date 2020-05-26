@@ -1,0 +1,8 @@
+@import "../styles/variables.scss";
+.otPublisher {
+  position: absolute;
+  bottom: 7.375rem;
+  right: 0.875rem;
+  border: 6px solid $color-magenta;
+  border-radius: 2px;
+}
