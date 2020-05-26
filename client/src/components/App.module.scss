@@ -11,6 +11,18 @@
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: 700;
+  @media (max-width: 58em) {
+    font-size: 3rem;
+  }
+  @media (max-width: 42em) {
+    font-size: 2.25rem;
+  }
+  @media (max-width: 32em) {
+    font-size: 1.75rem;
+  }
+  @media (max-width: 25em) {
+    font-size: 1.25rem;
+  }
 }
 .btn {
   grid-row: 3/4;
@@ -25,6 +37,16 @@
   &:hover {
     background-color: $color-white;
     color: $color-magenta;
+  }
+  @media (max-width: 42em) {
+    font-size: 1.75rem;
+  }
+  @media (max-width: 32em) {
+    font-size: 1.375rem;
+    padding: 0.75rem 1.25rem;
+  }
+  @media (max-width: 28em) {
+    font-size: 1.125rem;
   }
 }
 .containerChat {

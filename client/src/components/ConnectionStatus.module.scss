@@ -1,5 +1,13 @@
 @import "../styles/variables.scss";
 
+.text {
+  position: fixed;
+  font-size: 1.25rem;
+  top: 1.175rem;
+  left: 1rem;
+  color: $color-white;
+  z-index: 100;
+}
 .connectionStatus {
   position: fixed;
   top: 1rem;
@@ -8,6 +16,7 @@
   width: 2rem;
   border-radius: 50%;
   border: $color-white 3px solid;
+  z-index: 100;
 }
 
 .connectionDown {

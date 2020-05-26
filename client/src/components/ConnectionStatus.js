@@ -7,6 +7,7 @@ function ConnectionStatus() {
   const { connection, error } = chatState
   return (
     <>
+      <div className={styles.text}>{chatState.room}</div>
       <div
         className={
           connection === "Connected" || connection === "Reconnected"

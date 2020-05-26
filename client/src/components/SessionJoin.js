@@ -26,7 +26,7 @@ function SessionJoin() {
   }
   return (
     <div className={styles.container}>
-      <p className={styles.text}>Pick a name for your session</p>
+      <p className={styles.text}>Pick a session</p>
       <form onSubmit={handleSubmit} className={styles.form}>
         <input
           className={styles.input}
